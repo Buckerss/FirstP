@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <title>Grocery list</title> 
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" sizes="16x16"  href="../favicon/favicon-16x16.png?v=2">
+        <script type="text/javascript" src="javascript/script.js"></script>
+    </head>
+    <body>
+        <h1>Grocery List</h1>
+        
+        <input type="text" id="CategoryInputBox" placeholder="Category" class="CategoryBar">
+
+        <section class="center">
+            <input type="text" id="QuantityInputBox" placeholder="Quantity" class="inputBar">
+            <input type="text" id="BrandInputBox" placeholder="Brand" class="inputBar">
+            <input type="text" id="ItemInputBox" placeholder="Item" class="inputBar">
+            <input type="submit" value="Add Item" class="submitButton">
+        </section>
+
+        <!-- CREATE CATEGORIES -->
+        <section>
+            <ol class="simple-border category" id="ProduceList">
+                <h4>Produce</h4>
+            </ol>  
+
+        </section>      
+        
+        <section>
+            <ol class="simple-border category" id="ProteinList">
+                <h4>Protein</h4>
+            </ol>  
+
+        </section> 
+
+        <section>
+            <ol class="simple-border category" id="FrozenList">
+                <h4>Frozen Foods</h4>
+            </ol>  
+
+        </section> 
+
+        <section>
+            <ol class="simple-border category"  id="DrinkList">
+                <h4>Drinks</h4>
+            </ol>  
+
+        </section>
+
+        <section>
+            <ol class="simple-border category" id="SnacksList">
+                <h4>Snacks</h4>
+            </ol>  
+
+        </section> 
+        
+        <section>
+            <ol class="simple-border category"  id="GrainList">
+                <h4>Grain</h4>
+            </ol>  
+
+        </section> 
+
+
+        <section>
+            <ol class="simple-border category" id="MiscList">
+                <h4>Miscellaneous</h4>
+            </ol>  
+
+        </section> 
+
+        <input type="submit" value="Clear Items" class="submitButton" id="clearbtn">
+
+    </body>
+</html>
